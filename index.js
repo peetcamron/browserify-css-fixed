@@ -61,6 +61,7 @@ module.exports = function(filename, opts) {
     options.inlineImages = bool(options.inlineImages);
     options.stripComments = bool(options.stripComments);
 
+    /*
     if (typeof options.output === 'string' && options.output.length > 0) {
         try {
             fs.writeFileSync(options.output, '', 'utf8');
@@ -69,6 +70,7 @@ module.exports = function(filename, opts) {
             console.error(err);
         }
     }
+    */
 
     return through(
         function transform(chunk, enc, next) {

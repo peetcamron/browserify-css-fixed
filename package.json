@@ -1,6 +1,6 @@
 {
-  "name": "browserify-css",
-  "version": "0.15.0",
+  "name": "browserify-css-fixed",
+  "version": "0.16.0",
   "description": "A Browserify transform for bundling, rebasing, inlining, and minifying CSS files",
   "main": "./index.js",
   "browser": "./browser.js",
@@ -24,7 +24,7 @@
     "transform"
   ],
   "author": {
-    "name": "Cheton Wu"
+    "name": "Cheton Wu, Fixed by peetcamron"
   },
   "license": "MIT",
   "dependencies": {
