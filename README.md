@@ -4,6 +4,14 @@
 
 A Browserify transform for bundling, rebasing, inlining, and minifying CSS files. It's useful for CSS modularization where styles are scoped to their related bundles.
 
+## Comment transférer dans le repo build
+nvm use 10
+npm i
+npm pack
+
+Copier browserify-css-0.16.1.tgz dans customlibs dans le dossier source de TS.Admin ou autre truc...
+
+
 ## Getting Started
 
 If you're new to browserify, check out the [browserify handbook](https://github.com/substack/browserify-handbook) and the resources on [browserify.org](http://browserify.org/).
